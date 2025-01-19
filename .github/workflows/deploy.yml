@@ -42,6 +42,9 @@ jobs:
     - name: Copy sitemap.xml
       run: cp sitemap.xml ./dist/
 
+    - name: Copy google40e705b3b6becf97.html
+      run: cp google40e705b3b6becf97.html ./dist/
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
